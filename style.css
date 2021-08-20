@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+form input{
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 13px;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    width: 330px;
+    border-radius: 5px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to bottom, hsla(0, 87%, 37%, 0.5)  0%,rgba(182, 7, 22, 0.527)),url(./images/bg-intro-desktop.png);
@@ -16,7 +23,7 @@ body{
 .box{
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 130vh;
 }
 .main-box{
     width: 900px;
@@ -64,9 +71,6 @@ body{
     padding: 10px 0px 10px 80px;
     margin-bottom: 20px;
 }
-.field{
-    padding: 10px 0px 10px 20px;
-}
 .margin{
     margin-bottom: 13px;
 }
@@ -88,10 +92,7 @@ body{
     color: hsl(0, 100%, 74%);
 }
 .bd{
-    border: 1px solid rgb(19, 18, 18);
-}
-.bd-none{
-    border: 1px solid rgba(128, 128, 128, 0.212);
+    border: 1px solid rgba(19, 18, 18, 0.212);
 }
 ::placeholder{
     font-size: 10px;
@@ -107,6 +108,9 @@ body{
     .main-box{
         width: 350px;
         flex-direction: column;
+    }
+    form input{
+        width: 270px;
     }
     .width{
         width: 270px;
@@ -188,6 +192,6 @@ body{
         height: 143vh;
     }
     .main-box{
-        margin-left: 2px;
+        margin-left: 0px;
     }
 }
